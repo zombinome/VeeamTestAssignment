@@ -1,0 +1,6 @@
+﻿Time spent: 10h total
+
+2h for initial planning and single-thread implementation prototype.
+    Found issue with GZipStream reading more bytes that required, worked arount that issue.
+6h for parallel implementation with testing of various cases.
+2h for replacing BlockingCollection<T> with my own BlockingQuery<T> and adding parameter validation logic.
